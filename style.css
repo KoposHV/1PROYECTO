@@ -1,0 +1,116 @@
+:root {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'MedievalSharp', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(./assets/Fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image {
+    opacity: 0.1;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+h1 {
+    text-align: center;
+    font-weight: bold ;
+   }
+
+div ul li {
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: black solid;
+    background-color: rgba(231, 223, 223, 0.534);
+    padding: 3px;
+    border-radius: 20%;
+    }
+
+    div img {
+        margin-right: 35px;
+        width: 60px;
+        }
+
+div ul li:hover  {
+  color: rgb(23, 124, 10); 
+  
+}
+
+
+main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px ;
+    }
+
+iframe {
+    padding: 140px;
+        
+        }
+
+article {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        
+    }
+
+.principal button {
+    margin-right:20px;
+    padding:10px;
+    border-radius: 20%;
+}
+
+div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 130px;
+    margin-right: 140px;
+    border:black solid;
+    font-style: oblique;
+    font-weight:bold;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+footer  {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 500px;
+}
+footer p {
+    padding-top: 10px;
+    font-weight: bold;
+    background-color: rgb(231, 223, 223);
+    }
+
+footer img {
+    width: 80x;
+    height: 180px;
+    border:black solid;
+    box-shadow: rgba(95, 95, 95, 0.4) -5px 5px, rgba(114, 110, 112, 0.3) -10px 10px, rgba(95, 92, 94, 0.2) -15px 15px, rgba(104, 101, 103, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    
+}
+
+
+
+
+   
+
